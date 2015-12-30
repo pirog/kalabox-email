@@ -1,0 +1,28 @@
+{
+  "name": "kalabox-email",
+  "version": "0.1.0",
+  "description": "Module for sending email using kalabox mailgun api.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/kalabox/kalabox-email.git"
+  },
+  "keywords": [
+    "kalabox"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kalabox/kalabox-email/issues"
+  },
+  "homepage": "https://github.com/kalabox/kalabox-email#readme",
+  "dependencies": {
+    "bluebird": "^3.1.1",
+    "lodash": "^3.10.1",
+    "mailgun-js": "^0.7.7",
+    "verror": "^1.6.0"
+  }
+}
